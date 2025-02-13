@@ -1,0 +1,11 @@
+uuid: 408c7ec6-8447-46a3-87d1-6364b2735a25
+langcode: en
+status: true
+dependencies: {  }
+id: decoupled_site
+label: 'Decoupled Site'
+base_url: 'http://127.0.0.1:3000'
+preview_url: ''
+preview_secret: ''
+revalidate_url: 'http://localhost:3000/api/revalidate'
+revalidate_secret: next-app-revalidate-secret

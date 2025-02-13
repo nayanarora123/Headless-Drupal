@@ -1,0 +1,21 @@
+uuid: b13867b4-7a36-4be1-a650-c0de456eb21f
+langcode: en
+status: true
+dependencies:
+  module:
+    - jwt
+    - node
+    - serialization
+    - simple_oauth
+id: entity.node
+plugin_id: 'entity:node'
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+  formats:
+    - json
+  authentication:
+    - jwt_auth
+    - oauth2
